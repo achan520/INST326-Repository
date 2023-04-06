@@ -1,20 +1,16 @@
+# Alice Chan and Arianna Goolcharan
 import sys
 import argparse
 
 def hello():
     print("Hello")
     
-def goodbye():
-    print("Goodbye")
-    
 def main():
 #Note that this function does not do anything.
 #You would insert functional code here.
 #Instead we will use the pass keyword to avoid doing that.
-    
     hello()
-    goodbye()
-    
+
 def parse_args(args_list):
     """Takes a list of strings from the command prompt and passes them through as arguments Args:
     args_list (list) : the list of strings from the command prompt
